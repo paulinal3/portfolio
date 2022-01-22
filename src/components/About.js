@@ -7,7 +7,7 @@ export default function About() {
                 <div class="column is-12 about-me">
                     <h1 class="title has-text-centered section-title">About Me</h1>
                 </div>
-                <div class="columns is-multiline">
+                <div class="columns is-multiline aboutContainer">
                     <div
                         class="column is-6 has-vertically-aligned-content"
                         data-aos="fade-right"
@@ -48,11 +48,11 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    <div class="column is-6 right-image " data-aos="fade-left">
+                    <div class="column is-6 right-image" id="profilePic" data-aos="fade-left">
                         <img
                             class="is-rounded"
-                            src="https://picsum.photos/id/366/600/375"
-                            alt=""
+                            src="https://i.postimg.cc/zfJFGHQx/IMG-8486-2.jpg"
+                            alt="Paulilna Le"
                         />
                     </div>
                 </div>

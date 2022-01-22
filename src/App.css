@@ -19,7 +19,7 @@
   font-family: 'Birthstone Bounce', cursive;
   transform: rotate(-10deg);
   font-size: 200px;
-  color: #4EA7A6;
+  color: #5fbfbd;
 }
 
 .subtitle, #professionContainer {
@@ -168,6 +168,19 @@
   border-radius: 11px;
   margin: 20px;
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+#profilePic {
+  max-width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5%;
+  justify-content: center;
 }
 
 @media (max-width: 599px) {
