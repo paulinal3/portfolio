@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.hero {
+  background-image: url(https://image.freepik.com/free-photo/closeup-surface-marble-pattern-marble-stone-wall-texture-background_85347-607.jpg);
+  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("https://image.freepik.com/free-photo/closeup-surface-marble-pattern-marble-stone-wall-texture-background_85347-607.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   color: white;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.hero .title {
+  font-family: 'Birthstone Bounce', cursive;
+  transform: rotate(-10deg);
+  font-size: 200px;
+  color: #4EA7A6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subtitle {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: whitesmoke;
 }
