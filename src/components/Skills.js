@@ -1,7 +1,7 @@
 
 export default function Skills() {
     return (
-        <div class="section-color services" id="services">
+        <div class="section-color services" id="skills">
             <div class="container">
                 <div class="columns is-multiline">
                     <div
@@ -9,7 +9,7 @@ export default function Skills() {
                         data-aos="fade-in"
                         data-aos-easing="linear"
                     >
-                        <h1 class="title has-text-centered section-title">Services</h1>
+                        <h1 class="title has-text-centered section-title">Skills</h1>
 
                         <h2 class="description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

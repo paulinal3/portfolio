@@ -16,15 +16,18 @@ export default function HeroMenu() {
                             <li>
                                 <a href="#projects">Projects</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="#services">Services</a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a href="#skills">Skills</a>
                             </li>
                             <li>
-                                <a href="#contact">Contact</a>
+                                <a href="#side-hustle">Side Hustle</a>
                             </li>
+                            {/* <li>
+                                <a href="#contact">Contact</a>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

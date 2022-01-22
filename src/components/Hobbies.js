@@ -14,7 +14,7 @@ export default function Hobbies() {
                     <div class="column is-3">
                         <a href="facebook.com">
                             <figure
-                                class="image is-2by1 project-item"
+                                class="image is-4by5 project-item"
                                 style={{ backgroundImage: "url('https://picsum.photos/320/180?image=0')" }}
                             ></figure>
                         </a>
@@ -22,24 +22,24 @@ export default function Hobbies() {
                     <div class="column is-3">
                         <a href="facebook.com">
                             <figure
-                                class="image is-2by1 project-item"
-                                style={{ backgroundImage: "url('https://picsum.photos/320/180?image=0')" }}
+                                class="image is-4by5 project-item"
+                                style={{ backgroundImage: "url('https://i.postimg.cc/WpM2rqFT/halloween-side-hustle.jpg')" }}
                             ></figure>
                         </a>
                     </div>
                     <div class="column is-3">
                         <a href="facebook.com">
                             <figure
-                                class="image is-2by1 project-item"
-                                style={{ backgroundImage: "url('https://picsum.photos/320/180?image=0')" }}
+                                class="image is-4by5 project-item"
+                                style={{ backgroundImage: "url('https://i.postimg.cc/WpM2rqFT/halloween-side-hustle.jpg')" }}
                             ></figure>
                         </a>
                     </div>
                     <div class="column is-3">
                         <a href="facebook.com">
                             <figure
-                                class="image is-2by1 project-item"
-                                style={{ backgroundImage: "url('https://picsum.photos/320/180?image=0')" }}
+                                class="image is-4by5 project-item"
+                                style={{ backgroundImage: "url('https://i.postimg.cc/sg5KtDCJ/beeday-side-hustle.jpg')" }}
                             ></figure>
                         </a>
                     </div>

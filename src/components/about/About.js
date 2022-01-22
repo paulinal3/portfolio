@@ -13,7 +13,7 @@ export default function About() {
                         data-aos="fade-right"
                     >
                         <p class="is-larger" id="name">
-                            <strong>Paulina Le</strong>
+                            Paulina Le
                         </p>
                         <br />
                         <p class="bodyText">
@@ -42,6 +42,13 @@ export default function About() {
                                 </p>
                                 <a href="https://github.com/paulinal3" target='_blank' rel='noopener noreferrer' class="subheading">github.com/paulinal3</a>
                             </div>
+                        </div>
+                        <div class="column is-10 has-text-centered is-offset-1">
+                            <a href="https://drive.google.com/file/d/1xQzqtUl2A4-rXFiKAguJKU-lFqA8fwL7/view?usp=sharing" target='_blank' rel='noopener noreferrer'>
+                                <button class="button" id='resumeBtn'>
+                                    Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div class="column is-6 right-image" id="profilePic" data-aos="fade-left">

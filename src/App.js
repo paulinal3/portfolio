@@ -22,7 +22,7 @@ function App() {
       <ScrollUpBtn />
       <div class="main-content">
         <About />
-        <Resume />
+        {/* <Resume /> */}
         <Projects />
         <Skills />
         <Hobbies  />
