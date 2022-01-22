@@ -13,11 +13,7 @@ export default function About() {
                         data-aos="fade-right"
                     >
                         <p class="is-larger">
-                            &emsp;&emsp;<strong
-                            >Showcase is a modern, beautiful personal website template to
-                                showcase who you are, as well as projects you've worked on in
-                                the past.</strong
-                            >
+                            <strong>Paulina Le</strong>
                         </p>
                         <br />
                         <p>

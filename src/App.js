@@ -8,11 +8,18 @@ import ScrollUpBtn from "./components/ScrollUpBtn";
 function App() {
   return (
     <div>
+      {/* <div class="preloader-wrapper">
+        <div class="preloader">
+          <img src="img/preloader.gif" alt="" />
+        </div>
+      </div> */}
       <Hero />
       <ScrollUpBtn />
-      <About />
-      <Resume />
-      <Projects />
+      <div class="main-content">
+        <About />
+        <Resume />
+        <Projects />
+      </div>
     </div>
   );
 }
