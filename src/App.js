@@ -15,14 +15,9 @@ function App() {
     easing: "ease-out",
     duration: 800,
   });
-  
+
   return (
     <div>
-      {/* <div class="preloader-wrapper">
-        <div class="preloader">
-          <img src="img/preloader.gif" alt="" />
-        </div>
-      </div> */}
       <Hero />
       <ScrollUpBtn />
       <div class="main-content">

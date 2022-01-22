@@ -7,7 +7,7 @@
 
 .hero {
   background-image: url(https://i.imgur.com/ZATlHgN.jpeg);
-  /* background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("https://i.imgur.com/ZATlHgN.jpeg") no-repeat; */
+  background: linear-gradient(rgba(31, 108, 94, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("https://i.imgur.com/ZATlHgN.jpeg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -22,10 +22,17 @@
   color: #4EA7A6;
 }
 
-.subtitle {
+.subtitle, #professionContainer {
   text-transform: uppercase;
   font-size: 50px;
   color: whitesmoke;
+}
+
+#professionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1%;
 }
 
 .hero .hero-foot {
@@ -79,7 +86,7 @@
 }
 
 .main-content .section-dark {
-  background-color: #f0f3f5;
+  background-color: #ebf5fc;
   padding: 60px 0px;
 }
 
@@ -205,7 +212,7 @@
 
 .main-content .section-color.services {
   padding: 100px;
-  background-color: #43485c;
+  background-color: #4b6868;
   color: white;
 }
 
@@ -294,28 +301,9 @@
   background-color: #43485c;
 }
 
-body.preloader-site {
+/* body {
   overflow: hidden;
-}
-
-.preloader-wrapper {
-  height: 100%;
-  width: 100%;
-  background: #1f2c6c;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999999;
-}
-
-.preloader-wrapper .preloader {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  width: 120px;
-}
+} */
 
 .white
 {color:ghostwhite}
