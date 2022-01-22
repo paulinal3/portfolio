@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&display=swap');
 
 .hero {
-  background-image: url(https://image.freepik.com/free-photo/closeup-surface-marble-pattern-marble-stone-wall-texture-background_85347-607.jpg);
-  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("https://image.freepik.com/free-photo/closeup-surface-marble-pattern-marble-stone-wall-texture-background_85347-607.jpg") no-repeat;
+  background-image: url(https://i.imgur.com/ZATlHgN.jpeg);
+  /* background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("https://i.imgur.com/ZATlHgN.jpeg") no-repeat; */
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -22,4 +22,48 @@
   text-transform: uppercase;
   font-size: 50px;
   color: whitesmoke;
+}
+
+.hero .hero-foot {
+  height: 50px;
+  background: white;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
+}
+
+@media (max-width: 599px) {
+  .hero .hero-foot {
+    display: none;
+  }
+}
+
+.hero .hero-foot .hero-foot--wrapper {
+  margin: 7px auto;
+  height: 50px;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
+  line-height: 38px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li.is-active a {
+  border-bottom: 2px solid #4EA7A6;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
+  color: #4EA7A6;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
+  color: #4EA7A6;
+  transition: all .2s ease-in-out;
+  border-bottom: 2px solid #4EA7A6;
 }

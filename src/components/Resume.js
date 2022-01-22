@@ -15,7 +15,7 @@ export default function Resume() {
                         </h1>
                     </div>
                     <div class="column is-10 has-text-centered is-offset-1">
-                        <h2 class="subtitle">
+                        <h2 class="description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et doloremagna aliqua
                         </h2>
