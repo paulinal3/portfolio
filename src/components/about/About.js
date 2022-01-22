@@ -1,6 +1,6 @@
 
 export default function About() {
-    
+
     return (
         <div class="section-light about-me" id="about-me">
             <div class="container">
@@ -12,24 +12,16 @@ export default function About() {
                         class="column is-6 has-vertically-aligned-content"
                         data-aos="fade-right"
                     >
-                        <p class="is-larger">
+                        <p class="is-larger" id="name">
                             <strong>Paulina Le</strong>
                         </p>
                         <br />
-                        <p>
+                        <p class="bodyText">
                             I am a full stack software developer who strives to provide efficient and functional products. I am passionate about using technology to create a healthy space for users. My previous experience as a personal trainer has given me a creative outlook on how to approach different challenges and the patience to find effective solutions.
                         </p>
                         <br />
                         <div class="is-divider"></div>
                         <div class="columns about-links">
-                            <div class="column">
-                                <p class="heading">
-                                    <strong>Give me a ring</strong>
-                                </p>
-                                <p class="subheading">
-                                    123-456-7890
-                                </p>
-                            </div>
                             <div class="column">
                                 <p class="heading">
                                     <strong>Email Me</strong>
@@ -42,9 +34,13 @@ export default function About() {
                                 <p class="heading">
                                     <strong>Linkedin</strong>
                                 </p>
-                                <p class="subheading">
-                                    linkedin.com/in/paulinal3/
+                                <a href="https://www.linkedin.com/in/paulinal3/" target='_blank' rel='noopener noreferrer' class="subheading">linkedin.com/in/paulinal3/</a>
+                            </div>
+                            <div class="column">
+                                <p class="heading">
+                                    <strong>GitHub</strong>
                                 </p>
+                                <a href="https://github.com/paulinal3" target='_blank' rel='noopener noreferrer' class="subheading">github.com/paulinal3</a>
                             </div>
                         </div>
                     </div>

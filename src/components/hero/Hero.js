@@ -23,7 +23,6 @@ export default function Hero() {
                 />
               </h1>
             </div>
-            {/* <h1 class="subtitle profession">A Software Engineer</h1> */}
           </div>
         </div>
         <HeroMenu />

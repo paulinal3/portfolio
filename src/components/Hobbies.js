@@ -1,7 +1,7 @@
 
 export default function Hobbies() {
     return (
-        <div class="section-dark my-work" id="my-work">
+        <div class="section-dark projects" id="projects">
             <div class="container">
                 <div
                     class="columns is-multiline"
@@ -14,7 +14,7 @@ export default function Hobbies() {
                     <div class="column is-3">
                         <a href="facebook.com">
                             <figure
-                                class="image is-2by1 work-item"
+                                class="image is-2by1 project-item"
                                 style={{ backgroundImage: "url('https://picsum.photos/320/180?image=0')" }}
                             ></figure>
                         </a>
@@ -22,7 +22,7 @@ export default function Hobbies() {
                     <div class="column is-3">
                         <a href="facebook.com">
                             <figure
-                                class="image is-2by1 work-item"
+                                class="image is-2by1 project-item"
                                 style={{ backgroundImage: "url('https://picsum.photos/320/180?image=0')" }}
                             ></figure>
                         </a>
@@ -30,7 +30,7 @@ export default function Hobbies() {
                     <div class="column is-3">
                         <a href="facebook.com">
                             <figure
-                                class="image is-2by1 work-item"
+                                class="image is-2by1 project-item"
                                 style={{ backgroundImage: "url('https://picsum.photos/320/180?image=0')" }}
                             ></figure>
                         </a>
@@ -38,7 +38,7 @@ export default function Hobbies() {
                     <div class="column is-3">
                         <a href="facebook.com">
                             <figure
-                                class="image is-2by1 work-item"
+                                class="image is-2by1 project-item"
                                 style={{ backgroundImage: "url('https://picsum.photos/320/180?image=0')" }}
                             ></figure>
                         </a>

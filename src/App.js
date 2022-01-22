@@ -1,7 +1,7 @@
 import './App.css'
-import About from "./components/About";
+import About from "./components/about/About";
 import Footer from './components/Footer';
-import Hero from "./components/Hero";
+import Hero from './components/hero/Hero';
 import Hobbies from './components/Hobbies';
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
