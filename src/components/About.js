@@ -1,6 +1,6 @@
-import React from 'react';
 
 export default function About() {
+    
     return (
         <div class="section-light about-me" id="about-me">
             <div class="container">

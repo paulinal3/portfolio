@@ -1,6 +1,7 @@
-import React from 'react';
 
 export default function Resume() {
+    {/* <!-- https://drive.google.com/file/d/1xQzqtUl2A4-rXFiKAguJKU-lFqA8fwL7/view?usp=sharing --> */ }
+
     return (
         <div class="section-dark resume">
             <div class="container">
@@ -22,7 +23,6 @@ export default function Resume() {
                         <form action="example.docs">
                             <button class="button">
                                 Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
-                                {/* <!-- https://drive.google.com/file/d/1xQzqtUl2A4-rXFiKAguJKU-lFqA8fwL7/view?usp=sharing --> */}
                             </button>
                         </form>
                     </div>
