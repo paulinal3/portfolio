@@ -1,7 +1,7 @@
 
 export default function Skills() {
     return (
-        <div class="section-color services" id="skills">
+        <div class="section-color skills" id="skills">
             <div class="container">
                 <div class="columns is-multiline">
                     <div
@@ -12,7 +12,7 @@ export default function Skills() {
                         <h1 class="title has-text-centered section-title">Skills</h1>
 
                         <h2 class="description">
-                            Technology is constantly growing and so am I! I'm currently learning Typescript, GraphQL, and AWS while mastering the following:
+                            Technology is constantly growing and so am I! I'm currently learning Typescript, GraphQL, and AWS while continuing my knowledge in the following:
                         </h2>
                         <br />
                     </div>
