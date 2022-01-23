@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
 * {
   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.section-title {
+  font-family: 'Julius Sans One', sans-serif;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.082);
 }
 
 .hero {
@@ -135,12 +141,20 @@
   font-size: 18px;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: #4EA7A6;
+}
+
 .heading {
   font-size: 15px;
 }
 
 .bodyText {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 @media (max-width: 599px) {
@@ -228,6 +242,29 @@
   box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
 }
 
+.img_description {
+  visibility: hidden;
+  opacity: 0;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+  transition: opacity .2s, visibility .2s;
+  }
+  
+.img_wrap:hover .img_description {
+  visibility: visible;
+  opacity: 1;
+  }
+
+#projectsList {
+  max-width: 25%;
+}
+
+.project-item {
+  background-position: center;
+}
+
 .main-content .section-light.skills {
   padding: 100px;
 }
@@ -294,13 +331,19 @@
   line-height: 25px;
   text-align: center;
   background: #4EA7A6;
-  color: whitesmoke;
+  color: black;
   padding-top: 2rem;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .footer a {
   padding: 0rem 1rem 1rem 1rem;
-  color: lightgrey;
+  color: white
+}
+
+.footer a:hover {
+  color: #6cffff;
 }
 
 .footer a i {
@@ -309,7 +352,7 @@
 }
 
 .footer a .nav-item {
-  color: whitesmoke;
+  color: white;
 }
 
 .fa-download {

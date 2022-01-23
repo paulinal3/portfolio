@@ -5,7 +5,7 @@ const ProjectInfo = {
             'name': 'Netflixify',
             'stackName': 'MERN Stack Application',
             'description': '',
-            'imgUrl': '',
+            'imgUrl': 'https://picsum.photos/320/180?image=0',
             'techStack': ['Node.JS', 'Express.JS', 'MongoDB', 'React.JS', 'CSS/BootStrap'],
             'deployedUrl': 'https://heavy-things-tracker.herokuapp.com/',
             'date': 'Jan 2022',
@@ -15,7 +15,7 @@ const ProjectInfo = {
             'name': 'DevXchange',
             'stackName': 'MERN Stack Application',
             'description': '',
-            'imgUrl': '',
+            'imgUrl': 'https://i.postimg.cc/htPwYLQc/Dev-Xchange.png',
             'techStack': ['Node.JS', 'Express.JS', 'MongoDB', 'React.JS', 'CSS/BootStrap'],
             'deployedUrl': 'https://devxchange.herokuapp.com/',
             'date': 'Dec 2021',
@@ -25,7 +25,7 @@ const ProjectInfo = {
             'name': 'Heavy Things Tracker',
             'stackName': 'PEN Stack Application',
             'description': '',
-            'imgUrl': '',
+            'imgUrl': 'https://i.postimg.cc/Gtn3P72c/Heavy-Things-Tracker.png',
             'techStack': ['Node.JS', 'Express.JS', 'EJS', 'PostgreSQL', 'CSS/BootStrap'],
             'deployedUrl': 'https://heavy-things-tracker.herokuapp.com/',
             'date': 'Nov 2021',
@@ -35,7 +35,7 @@ const ProjectInfo = {
             'name': 'Save Manny!',
             'stackName': 'Front-End Application',
             'description': '',
-            'imgUrl': '',
+            'imgUrl': 'https://picsum.photos/320/180?image=0',
             'techStack': ['HTML/Canvas', 'CSS', 'JavaScript/ES6'],
             'deployedUrl': 'https://wonderful-einstein-784d70.netlify.app/',
             'date': 'Oct 2021',
@@ -43,3 +43,5 @@ const ProjectInfo = {
         }
     ]
 }
+
+export default ProjectInfo
