@@ -4,7 +4,7 @@ export default function Footer() {
         <div class="footer">
             <p>
                 2022 - Paulina Le
-                <a href="https://github.com/paulinal3/portfolio">- Repo -</a>React - Bulma
+                <a href="https://github.com/paulinal3/portfolio" target='_blank' rel='noopener noreferrer'>- Repo -</a>React - Bulma
             </p>
         </div>
     )

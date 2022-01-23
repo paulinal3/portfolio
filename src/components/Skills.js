@@ -23,7 +23,7 @@ export default function Skills() {
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <i class="fad fa-meteor fa-3x"></i>
+                            <i class="fab fa-react fa-3x"></i>
                             <hr />
                             <h2>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -35,7 +35,7 @@ export default function Skills() {
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <i class="fas fa-paint-brush fa-3x"></i>
+                            <i class="fas fa-database fa-3x"></i>
                             <hr />
                             <h2>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -47,7 +47,7 @@ export default function Skills() {
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <i class="fas fa-rocket fa-3x"></i>
+                            <i class="fab fa-node fa-3x"></i>
                             <hr />
                             <h2>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -62,19 +62,7 @@ export default function Skills() {
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <i class="fas fa-upload fa-3x"></i>
-                            <hr />
-                            <h2>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                            </h2>
-                        </div>
-                        <div
-                            class="column is-4 has-text-centered"
-                            data-aos="fade-in"
-                            data-aos-easing="linear"
-                        >
-                            <i class="fas fa-bus fa-3x"></i>
+                            <i class="fab fa-python fa-3x"></i>
                             <hr />
                             <h2>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -87,6 +75,18 @@ export default function Skills() {
                             data-aos-easing="linear"
                         >
                             <i class="fas fa-code fa-3x"></i>
+                            <hr />
+                            <h2>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            </h2>
+                        </div>
+                        <div
+                            class="column is-4 has-text-centered"
+                            data-aos="fade-in"
+                            data-aos-easing="linear"
+                        >
+                            <i class="fas fa-cookie-bite fa-3x"></i>
                             <hr />
                             <h2>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

@@ -265,6 +265,10 @@ a:hover {
   background-position: center;
 }
 
+.project-container:hover {
+  -webkit-filter: blur(4px);
+}
+
 .main-content .section-light.skills {
   padding: 100px;
 }
