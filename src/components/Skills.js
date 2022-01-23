@@ -12,8 +12,7 @@ export default function Skills() {
                         <h1 class="title has-text-centered section-title">Skills</h1>
 
                         <h2 class="description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            Technology is constantly growing and so am I! I'm currently learning Typescript, GraphQL, and AWS while mastering the following:
                         </h2>
                         <br />
                     </div>
@@ -26,8 +25,7 @@ export default function Skills() {
                             <i class="fab fa-react fa-3x"></i>
                             <hr />
                             <h2>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                JavaScript/ES6 and Next.JS
                             </h2>
                         </div>
                         <div
@@ -38,8 +36,7 @@ export default function Skills() {
                             <i class="fas fa-database fa-3x"></i>
                             <hr />
                             <h2>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                PostgreSQL and MongoDB
                             </h2>
                         </div>
                         <div
@@ -50,8 +47,7 @@ export default function Skills() {
                             <i class="fab fa-node fa-3x"></i>
                             <hr />
                             <h2>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                Express and EJS
                             </h2>
                         </div>
                     </div>

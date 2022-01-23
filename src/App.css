@@ -164,9 +164,9 @@ a:hover {
 }
 
 #resumeBtn {
-  border: 2px solid #43485c;
+  border: 2px solid #4EA7A6;
   background: white;
-  color: #43485c;
+  color: #4EA7A6;
   height: 50px;
   width: 250px;
   font-size: 1rem;
@@ -175,6 +175,7 @@ a:hover {
 
 #resumeBtn:hover {
   border: 2px solid #4EA7A6;
+  background: #ebf5fc;
 }
 
 .fa-download {
@@ -242,12 +243,40 @@ a:hover {
   box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
 }
 
+.projectImg:hover {
+
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .img_description {
   visibility: hidden;
   opacity: 0;
-  font-size: 25px;
-  font-weight: bold;
-  text-transform: uppercase;
+  /* font-size: 25px; */
+  /* font-weight: bold; */
+  /* text-transform: uppercase; */
+  /* background-color: rgb(0,0,0); Fallback color */
+  /* background-color: rgba(0,0,0, 0.4); Black w/opacity/see-through */
+  color: white;
+  /* border: 2px solid #f1f1f1; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  
   
   transition: opacity .2s, visibility .2s;
   }
@@ -258,16 +287,23 @@ a:hover {
   }
 
 #projectsList {
-  max-width: 25%;
+  /* max-width: 50%; */
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 15%; */
 }
 
 .project-item {
   background-position: center;
 }
 
-.project-container:hover {
-  -webkit-filter: blur(4px);
+.project-container {
+  flex: 1;
 }
+
+/* .project-container:hover {
+  -webkit-filter: blur(4px);
+} */
 
 .main-content .section-light.skills {
   padding: 100px;

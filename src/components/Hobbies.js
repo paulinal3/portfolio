@@ -1,3 +1,5 @@
+import { Player } from 'video-react'
+
 
 export default function Hobbies() {
     return (
@@ -11,13 +13,18 @@ export default function Hobbies() {
                     <div class="column is-12">
                         <h1 class="title has-text-centered section-title">Side Hustle</h1>
                     </div>
-                    <div class="column is-3">
+                    {/* <div class="column is-3">
                         <a href="facebook.com">
                             <figure
                                 class="image is-4by5 project-item"
                                 style={{ backgroundImage: "url('https://picsum.photos/320/180?image=0')" }}
                             ></figure>
                         </a>
+                    </div> */}
+                    <div class="column is-3">
+                        <Player 
+                            src='../../imgs/cocomelon-side-hustle-vid.mp4'
+                        />
                     </div>
                     <div class="column is-3">
                         <a href="facebook.com">
