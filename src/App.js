@@ -2,7 +2,7 @@ import './App.css'
 import About from "./components/about/About";
 import Footer from './components/Footer';
 import Hero from './components/hero/Hero';
-import Hobbies from './components/Hobbies';
+import Hobbies from './components/SideHustle';
 import Projects from "./components/projects/Projects";
 import Resume from "./components/Resume";
 import ScrollUpBtn from "./components/ScrollUpBtn";

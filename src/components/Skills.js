@@ -25,7 +25,11 @@ export default function Skills() {
                             <i class="fab fa-react fa-3x"></i>
                             <hr />
                             <h2 class="skillsInfo">
-                                JavaScript/ES6 and Next.JS
+                                React - Next.JS
+                                <br />
+                                • • • 
+                                <br />
+                                Currently refactoring my Heavy Things Tracker application into a React project.
                             </h2>
                         </div>
                         <div
@@ -33,10 +37,13 @@ export default function Skills() {
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <i class="fas fa-database fa-3x"></i>
+                            <i class="fab fa-js-square fa-3x"></i>
                             <hr />
                             <h2 class="skillsInfo">
-                                PostgreSQL and MongoDB
+                                JavaScript/ES6 - EJS - JSX
+                                <br /> 
+                                • • • 
+                                <br />
                             </h2>
                         </div>
                         <div
@@ -47,22 +54,29 @@ export default function Skills() {
                             <i class="fab fa-node fa-3x"></i>
                             <hr />
                             <h2 class="skillsInfo">
-                                Express and EJS
+                                Node.JS - Express
+                                <br /> 
+                                • • • 
+                                <br />
+                                Depnding To handle routing, sessions, controllers, logic, API development, and views.
                             </h2>
                         </div>
                     </div>
                     <hr />
                     <div class="columns is-12">
-                        <div
+                    <div
                             class="column is-4 has-text-centered"
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <i class="fab fa-python fa-3x"></i>
+                            <i class="fas fa-database fa-3x"></i>
                             <hr />
                             <h2 class="skillsInfo">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                PostgreSQL - MongoDB
+                                <br /> 
+                                • • • 
+                                <br />
+                                What type of application I build determines which database I use. Typically use MongoDB Atlas for deployment.
                             </h2>
                         </div>
                         <div
@@ -73,8 +87,11 @@ export default function Skills() {
                             <i class="fas fa-code fa-3x"></i>
                             <hr />
                             <h2 class="skillsInfo">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                SEI Teaching Assistant
+                                <br /> 
+                                • • • 
+                                <br />
+                                Not only do I love to learn, but I love to teach and help others. I'm currently working as a Sofware Engineer Immersive Teaching Assistant.
                             </h2>
                         </div>
                         <div
@@ -85,6 +102,10 @@ export default function Skills() {
                             <i class="fas fa-cookie-bite fa-3x"></i>
                             <hr />
                             <h2 class="skillsInfo">
+                                Fitness Trainer - Baker
+                                <br /> 
+                                • • • 
+                                <br />
                                 When I'm not coding, I'm a fitness trainer and baker. I'm a certified personal trainer and group fitness instructor that loves helping my clients achieve their goals.
                             </h2>
                         </div>

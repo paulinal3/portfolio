@@ -44,7 +44,7 @@ export default function About() {
                             </div>
                         </div>
                         <div class="column is-10 has-text-centered is-offset-1">
-                            <a href="https://drive.google.com/file/d/1SzVxfilGNCPw5DJ3Qr7qiDsh_AvRfXdw/view?usp=sharing" target='_blank' rel='noopener noreferrer'>
+                            <a href="https://drive.google.com/file/d/1rS763k2GayCS1r5r5hE80neMMciqYVBa/view?usp=sharing" target='_blank' rel='noopener noreferrer'>
                                 <button class="button" id='resumeBtn'>
                                     Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
                                 </button>
