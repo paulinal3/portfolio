@@ -44,6 +44,7 @@ export default function Skills() {
                                 <br /> 
                                 • • • 
                                 <br />
+                                Able to use plain vanilla Javascript or with templating languages.
                             </h2>
                         </div>
                         <div
@@ -58,7 +59,7 @@ export default function Skills() {
                                 <br /> 
                                 • • • 
                                 <br />
-                                Depnding To handle routing, sessions, controllers, logic, API development, and views.
+                                To handle routing, sessions, controllers, logic, API development, and views.
                             </h2>
                         </div>
                     </div>
@@ -99,7 +100,7 @@ export default function Skills() {
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <i class="fas fa-cookie-bite fa-3x"></i>
+                            <i class="far fa-heart fa-3x"></i>
                             <hr />
                             <h2 class="skillsInfo">
                                 Fitness Trainer - Baker
