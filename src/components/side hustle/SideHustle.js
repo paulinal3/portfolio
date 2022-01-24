@@ -1,4 +1,5 @@
 import Cocomelon from '../../imgs/cocomelon.MP4'
+import SideHustleHeader from './SideHustleHeader'
 
 export default function SideHustle() {
     return (
@@ -9,9 +10,7 @@ export default function SideHustle() {
                     data-aos="fade-in"
                     data-aos-easing="linear"
                 >
-                    <div class="column is-12">
-                        <h1 class="title has-text-centered section-title">Side Hustle</h1>
-                    </div>
+                    <SideHustleHeader />
                     <div class="column is-4">
                         <video
                             src={Cocomelon}

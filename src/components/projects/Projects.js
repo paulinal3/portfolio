@@ -1,3 +1,4 @@
+import ProjectsHeader from './ProjectsHeader'
 import ProjectInfo from '../../data/ProjectInfo'
 import Project from './Project'
 
@@ -15,23 +16,13 @@ export default function Projects() {
                 class="columns is-multiline"
                 data-aos="fade-in"
                 data-aos-easing="linear"
+                data-aos-duration="2000"
                 >
-                    <div class="column is-12"
-                        // data-aos="fade-in"
-                        // data-aos-easing="linear"
-                    >
-                        <h1 class="title has-text-centered section-title">Projects</h1>
-                    </div>
+                    <ProjectsHeader />
 
-                    <div class="card-image column is-6 project-container img_wrap"
-                        // data-aos="flip-left"
-                        // data-aos-easing="ease-out-cubic"
-                        // data-aos-duration="2000"
-                    >
-                        <figure
-                            class="image is-2by1"
-                        // style={{ backgroundImage: "url('https://i.postimg.cc/d3zvnhCT/Netflixify.png')" }}
-                        > <img class="projectImg project-item" src="https://i.postimg.cc/d3zvnhCT/Netflixify.png" />
+                    <div class="card-image column is-6 project-container img_wrap">
+                        <figure class="image is-2by1">
+                            <img class="projectImg project-item" src="https://i.postimg.cc/d3zvnhCT/Netflixify.png" />
                             <span class="img_description is-overlay card-content">
                                 <h1>Netflixify</h1>
                                 <p>Jan 2022 - MERN Stack</p>
@@ -39,6 +30,7 @@ export default function Projects() {
                             </span>
                         </figure>
                     </div>
+                    
                     {/* 
                     <div class="column is-6 project-container">
                         <div class="card-image img_wrap">
@@ -51,11 +43,7 @@ export default function Projects() {
                         </div> 
                     </div>  */}
 
-                    <div class="card-image column is-6 project-container img_wrap"
-                        // data-aos="flip-right"
-                        // data-aos-easing="ease-out-cubic"
-                        // data-aos-duration="2000"
-                    >
+                    <div class="card-image column is-6 project-container img_wrap">
                         <figure class="image is-2by1">
                             <img class="projectImg project-item" src="https://i.postimg.cc/htPwYLQc/Dev-Xchange.png" />
                             <span class="img_description is-overlay card-content">
@@ -66,11 +54,7 @@ export default function Projects() {
                         </figure>
                     </div>
 
-                    <div class="card-image column is-6 project-container img_wrap"
-                        // data-aos="flip-left"
-                        // data-aos-easing="ease-out-cubic"
-                        // data-aos-duration="2000"
-                    >
+                    <div class="card-image column is-6 project-container img_wrap">
                         <figure class="image is-2by1">
                             <img class="projectImg project-item" src="https://i.postimg.cc/Gtn3P72c/Heavy-Things-Tracker.png" />
                             <span class="img_description is-overlay card-content">
@@ -81,11 +65,7 @@ export default function Projects() {
                         </figure>
                     </div>
 
-                    <div class="card-image column is-6 project-container img_wrap"
-                        // data-aos="flip-right"
-                        // data-aos-easing="ease-out-cubic"
-                        // data-aos-duration="2000"
-                    >
+                    <div class="card-image column is-6 project-container img_wrap">
                         <figure class="image is-2by1">
                             <img class="projectImg project-item" src="https://i.postimg.cc/BQY6GSK8/Save-Manny.png" />
                             <span class="img_description is-overlay card-content">

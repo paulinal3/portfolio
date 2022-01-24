@@ -11,6 +11,8 @@ export default function Skills() {
                             class="column is-4 has-text-centered"
                             data-aos="fade-in"
                             data-aos-easing="linear"
+                            data-aos-duration="1500"
+
                         >
                             <i class="fab fa-react fa-3x"></i>
                             <hr />
@@ -26,6 +28,8 @@ export default function Skills() {
                             class="column is-4 has-text-centered"
                             data-aos="fade-in"
                             data-aos-easing="linear"
+                            data-aos-duration="1500"
+
                         >
                             <i class="fab fa-js-square fa-3x" alt="React Icon"></i>
                             <hr />
@@ -34,13 +38,14 @@ export default function Skills() {
                                 <br /> 
                                 • • • 
                                 <br />
-                                Able to use plain vanilla Javascript or with templating languages.
+                                Able to use plain vanilla Javascript or with templating languages and other syntax extensions.
                             </h2>
                         </div>
                         <div
                             class="column is-4 has-text-centered"
                             data-aos="fade-in"
                             data-aos-easing="linear"
+                            data-aos-duration="1500"
                         >
                             <i class="fab fa-node fa-3x" alt="Node.js Icon"></i>
                             <hr />
@@ -59,6 +64,7 @@ export default function Skills() {
                             class="column is-4 has-text-centered"
                             data-aos="fade-in"
                             data-aos-easing="linear"
+                            data-aos-duration="1500"
                         >
                             <i class="fas fa-database fa-3x" alt="Database Icon"></i>
                             <hr />
@@ -74,6 +80,7 @@ export default function Skills() {
                             class="column is-4 has-text-centered"
                             data-aos="fade-in"
                             data-aos-easing="linear"
+                            data-aos-duration="1500"
                         >
                             <i class="fas fa-code fa-3x" alt="Coding Icon"></i>
                             <hr />
@@ -89,6 +96,7 @@ export default function Skills() {
                             class="column is-4 has-text-centered"
                             data-aos="fade-in"
                             data-aos-easing="linear"
+                            data-aos-duration="1500"
                         >
                             <i class="far fa-heart fa-3x" alt="Heart Icon"></i>
                             <hr />

@@ -7,7 +7,6 @@ export default function HeroMenu() {
                     <div class="column is-12 hero-menu-desktop has-text-centered">
                         <ul>
                             <li>
-                            {/* <li class="is-active"> */}
                                 <a href="#home">Home</a>
                             </li>
                             <li>
@@ -16,9 +15,6 @@ export default function HeroMenu() {
                             <li>
                                 <a href="#projects">Projects</a>
                             </li>
-                            {/* <li>
-                                <a href="#services">Services</a>
-                            </li> */}
                             <li>
                                 <a href="#skills">Skills</a>
                             </li>
