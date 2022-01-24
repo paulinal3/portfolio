@@ -3,7 +3,7 @@ const ProjectInfo = {
     projects: [
         {
             'name': 'Netflixify',
-            'stackName': 'MERN Stack Application',
+            'stackName': 'MERN Stack',
             'description': '',
             'imgUrl': 'https://i.postimg.cc/d3zvnhCT/Netflixify.png',
             'techStack': ['Node.JS', 'Express.JS', 'MongoDB', 'React.JS', 'CSS/BootStrap'],
@@ -13,7 +13,7 @@ const ProjectInfo = {
         },
         {
             'name': 'DevXchange',
-            'stackName': 'MERN Stack Application',
+            'stackName': 'MERN Stack',
             'description': '',
             'imgUrl': 'https://i.postimg.cc/htPwYLQc/Dev-Xchange.png',
             'techStack': ['Node.JS', 'Express.JS', 'MongoDB', 'React.JS', 'CSS/BootStrap'],
@@ -23,7 +23,7 @@ const ProjectInfo = {
         },
         {
             'name': 'Heavy Things Tracker',
-            'stackName': 'PEN Stack Application',
+            'stackName': 'PEN Stack',
             'description': '',
             'imgUrl': 'https://i.postimg.cc/Gtn3P72c/Heavy-Things-Tracker.png',
             'techStack': ['Node.JS', 'Express.JS', 'EJS', 'PostgreSQL', 'CSS/BootStrap'],
@@ -33,7 +33,7 @@ const ProjectInfo = {
         },
         {
             'name': 'Save Manny!',
-            'stackName': 'Front-End Application',
+            'stackName': 'Vanilla JS',
             'description': '',
             'imgUrl': 'https://i.postimg.cc/BQY6GSK8/Save-Manny.png',
             'techStack': ['HTML/Canvas', 'CSS', 'JavaScript/ES6'],
