@@ -24,13 +24,14 @@ export default function Projects() {
                         <figure class="image is-2by1">
                             <img class="projectImg project-item" src="https://i.postimg.cc/d3zvnhCT/Netflixify.png" />
                             <span class="img_description is-overlay card-content">
-                                <h1>Netflixify</h1>
+                                <h1 class="is-uppercase">Netflixify</h1>
                                 <p>Jan 2022 - MERN Stack</p>
-                                <a href="https://netflixify.herokuapp.com/" target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
+                                <a href="https://github.com/paulinal3/netflixify-client" target='_blank' rel='noopener noreferrer'>GitHub Repository</a> | <a href="https://netflixify.herokuapp.com/" target='_blank' rel='noopener noreferrer'>Deployed App</a> 
+                                <p><i class="fas fa-info-circle"></i></p>
                             </span>
                         </figure>
                     </div>
-                    
+
                     {/* 
                     <div class="column is-6 project-container">
                         <div class="card-image img_wrap">
@@ -47,9 +48,9 @@ export default function Projects() {
                         <figure class="image is-2by1">
                             <img class="projectImg project-item" src="https://i.postimg.cc/htPwYLQc/Dev-Xchange.png" />
                             <span class="img_description is-overlay card-content">
-                                <h1>DevXchange</h1>
+                                <h1 class="is-uppercase">DevXchange</h1>
                                 <p>Dec 2021 - MERN Stack</p>
-                                <a href="https://devxchange.herokuapp.com/" target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
+                                <a href="https://github.com/paulinal3/devXchange-client" target='_blank' rel='noopener noreferrer'>GitHub Repository</a> | <a href="https://devxchange.herokuapp.com/" target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
                             </span>
                         </figure>
                     </div>
@@ -58,9 +59,9 @@ export default function Projects() {
                         <figure class="image is-2by1">
                             <img class="projectImg project-item" src="https://i.postimg.cc/Gtn3P72c/Heavy-Things-Tracker.png" />
                             <span class="img_description is-overlay card-content">
-                                <h1>Heavy Things Tracker</h1>
+                                <h1 class="is-uppercase">Heavy Things Tracker</h1>
                                 <p>Nov 2021 - PEN Stack</p>
-                                <a href="https://heavy-things-tracker.herokuapp.com/" target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
+                                <a href="https://github.com/paulinal3/heavy-things-tracker" target='_blank' rel='noopener noreferrer'>GitHub Repository</a> | <a href="https://heavy-things-tracker.herokuapp.com/" target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
                             </span>
                         </figure>
                     </div>
@@ -69,9 +70,9 @@ export default function Projects() {
                         <figure class="image is-2by1">
                             <img class="projectImg project-item" src="https://i.postimg.cc/BQY6GSK8/Save-Manny.png" />
                             <span class="img_description is-overlay card-content">
-                                <h1>Save Manny!</h1>
+                                <h1 class="is-uppercase">Save Manny!</h1>
                                 <p>Oct 2021 - Vanilla JS</p>
-                                <a href="https://wonderful-einstein-784d70.netlify.app/" target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
+                                <a href="https://github.com/paulinal3/SEI-Project-1" target='_blank' rel='noopener noreferrer'>GitHub Repository</a> | <a href="https://wonderful-einstein-784d70.netlify.app/" target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
                             </span>
                         </figure>
                     </div>

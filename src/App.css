@@ -261,13 +261,16 @@ a:hover {
 .img_description {
   visibility: hidden;
   opacity: 0;
-  font-size: 25px;
+  /* font-size: 25px; */
   /* font-weight: bold; */
   /* text-transform: uppercase; */
   /* background-color: rgb(0,0,0); Fallback color */
   /* background-color: rgba(0,0,0, 0.4); Black w/opacity/see-through */
-  color: white;
+  color: black;
   /* border: 2px solid #f1f1f1; */
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255,255,255, 0.85);
+  border: 2px solid #4EA7A6;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -277,8 +280,13 @@ a:hover {
   padding: 20px;
   text-align: center;
   
-  
   transition: opacity .2s, visibility .2s;
+  }
+
+  .img_description:hover {
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255,255,255, 0.85);
+  border: 2px solid #4EA7A6;
   }
   
 .img_wrap:hover .img_description {
