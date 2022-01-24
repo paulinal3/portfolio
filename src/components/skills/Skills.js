@@ -1,21 +1,11 @@
+import SkillsHeader from "./SkillsHeader";
 
 export default function Skills() {
     return (
         <div class="section-color skills" id="skills">
             <div class="container">
                 <div class="columns is-multiline">
-                    <div
-                        class="column is-12 about-me"
-                        data-aos="fade-in"
-                        data-aos-easing="linear"
-                    >
-                        <h1 class="title has-text-centered section-title">Skills</h1>
-
-                        <h2 class="description">
-                            Technology is constantly growing and so am I! I'm currently learning Typescript, GraphQL, and AWS while continuing my knowledge of the following:
-                        </h2>
-                        <br />
-                    </div>
+                    <SkillsHeader />
                     <div class="columns is-12">
                         <div
                             class="column is-4 has-text-centered"
@@ -37,7 +27,7 @@ export default function Skills() {
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <i class="fab fa-js-square fa-3x"></i>
+                            <i class="fab fa-js-square fa-3x" alt="React Icon"></i>
                             <hr />
                             <h2 class="skillsInfo">
                                 JavaScript/ES6 - EJS - JSX
@@ -52,7 +42,7 @@ export default function Skills() {
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <i class="fab fa-node fa-3x"></i>
+                            <i class="fab fa-node fa-3x" alt="Node.js Icon"></i>
                             <hr />
                             <h2 class="skillsInfo">
                                 Node.JS - Express
@@ -70,7 +60,7 @@ export default function Skills() {
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <i class="fas fa-database fa-3x"></i>
+                            <i class="fas fa-database fa-3x" alt="Database Icon"></i>
                             <hr />
                             <h2 class="skillsInfo">
                                 PostgreSQL - MongoDB
@@ -85,7 +75,7 @@ export default function Skills() {
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <i class="fas fa-code fa-3x"></i>
+                            <i class="fas fa-code fa-3x" alt="Coding Icon"></i>
                             <hr />
                             <h2 class="skillsInfo">
                                 SEI Teaching Assistant
@@ -100,7 +90,7 @@ export default function Skills() {
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <i class="far fa-heart fa-3x"></i>
+                            <i class="far fa-heart fa-3x" alt="Heart Icon"></i>
                             <hr />
                             <h2 class="skillsInfo">
                                 Fitness Trainer - Baker
