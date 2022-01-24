@@ -1,4 +1,4 @@
-import Cocomelon from '../imgs/cocomelon.mp4'
+import Cocomelon from '../imgs/cocomelon.MP4'
 
 export default function Hobbies() {
     return (
