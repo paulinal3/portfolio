@@ -27,7 +27,7 @@ export default function Projects() {
                                 <h1 class="is-uppercase">Netflixify</h1>
                                 <p>Jan 2022 - MERN Stack</p>
                                 <a href="https://github.com/paulinal3/netflixify-client" target='_blank' rel='noopener noreferrer'>GitHub Repository</a> | <a href="https://netflixify.herokuapp.com/" target='_blank' rel='noopener noreferrer'>Deployed App</a> 
-                                <p><i class="fas fa-info-circle"></i></p>
+                                <p><i class="fas fa-info-circle" alt="Click for More Info"></i></p>
                             </span>
                         </figure>
                     </div>
@@ -51,6 +51,7 @@ export default function Projects() {
                                 <h1 class="is-uppercase">DevXchange</h1>
                                 <p>Dec 2021 - MERN Stack</p>
                                 <a href="https://github.com/paulinal3/devXchange-client" target='_blank' rel='noopener noreferrer'>GitHub Repository</a> | <a href="https://devxchange.herokuapp.com/" target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
+                                <p><i class="fas fa-info-circle" alt="Click for More Info"></i></p>
                             </span>
                         </figure>
                     </div>
@@ -62,6 +63,7 @@ export default function Projects() {
                                 <h1 class="is-uppercase">Heavy Things Tracker</h1>
                                 <p>Nov 2021 - PEN Stack</p>
                                 <a href="https://github.com/paulinal3/heavy-things-tracker" target='_blank' rel='noopener noreferrer'>GitHub Repository</a> | <a href="https://heavy-things-tracker.herokuapp.com/" target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
+                                <p><i class="fas fa-info-circle" alt="Click for More Info"></i></p>
                             </span>
                         </figure>
                     </div>
@@ -73,6 +75,7 @@ export default function Projects() {
                                 <h1 class="is-uppercase">Save Manny!</h1>
                                 <p>Oct 2021 - Vanilla JS</p>
                                 <a href="https://github.com/paulinal3/SEI-Project-1" target='_blank' rel='noopener noreferrer'>GitHub Repository</a> | <a href="https://wonderful-einstein-784d70.netlify.app/" target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
+                                <p><i class="fas fa-info-circle" alt="Click for More Info"></i></p>
                             </span>
                         </figure>
                     </div>
