@@ -12,7 +12,7 @@ export default function Skills() {
                         <h1 class="title has-text-centered section-title">Skills</h1>
 
                         <h2 class="description">
-                            Technology is constantly growing and so am I! I'm currently learning Typescript, GraphQL, and AWS while continuing my knowledge in the following:
+                            Technology is constantly growing and so am I! I'm currently learning Typescript, GraphQL, and AWS while continuing my knowledge of the following:
                         </h2>
                         <br />
                     </div>
@@ -24,7 +24,7 @@ export default function Skills() {
                         >
                             <i class="fab fa-react fa-3x"></i>
                             <hr />
-                            <h2>
+                            <h2 class="skillsInfo">
                                 JavaScript/ES6 and Next.JS
                             </h2>
                         </div>
@@ -35,7 +35,7 @@ export default function Skills() {
                         >
                             <i class="fas fa-database fa-3x"></i>
                             <hr />
-                            <h2>
+                            <h2 class="skillsInfo">
                                 PostgreSQL and MongoDB
                             </h2>
                         </div>
@@ -46,7 +46,7 @@ export default function Skills() {
                         >
                             <i class="fab fa-node fa-3x"></i>
                             <hr />
-                            <h2>
+                            <h2 class="skillsInfo">
                                 Express and EJS
                             </h2>
                         </div>
@@ -60,7 +60,7 @@ export default function Skills() {
                         >
                             <i class="fab fa-python fa-3x"></i>
                             <hr />
-                            <h2>
+                            <h2 class="skillsInfo">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                 do eiusmod tempor incididunt ut labore et dolore magna aliqua
                             </h2>
@@ -72,7 +72,7 @@ export default function Skills() {
                         >
                             <i class="fas fa-code fa-3x"></i>
                             <hr />
-                            <h2>
+                            <h2 class="skillsInfo">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                 do eiusmod tempor incididunt ut labore et dolore magna aliqua
                             </h2>
@@ -84,9 +84,8 @@ export default function Skills() {
                         >
                             <i class="fas fa-cookie-bite fa-3x"></i>
                             <hr />
-                            <h2>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            <h2 class="skillsInfo">
+                                When I'm not coding, I'm a fitness trainer and baker. I'm a certified personal trainer and group fitness instructor that loves helping my clients achieve their goals.
                             </h2>
                         </div>
                     </div>

@@ -117,8 +117,8 @@
 }
 
 #profilePic {
-  max-width: 25%;
-  height: auto;
+  max-width: 100%;
+  width: 25%;
   display: flex;
   justify-content: center;
 }
@@ -318,6 +318,10 @@ a:hover {
 
 .main-content .section-light.skills h1 {
   padding: 10px;
+}
+
+.skillsInfo {
+  font-size: 18px;
 }
 
 .main-content .section-light.contact {
