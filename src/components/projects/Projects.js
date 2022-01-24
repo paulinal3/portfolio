@@ -12,15 +12,22 @@ export default function Projects() {
         <div class="section-dark projects is-flex-wrap-wrap" id="projects">
             <div class="container">
                 <div
-                    class="columns is-multiline"
-                    data-aos="fade-in"
-                    data-aos-easing="linear"
+                class="columns is-multiline"
+                data-aos="fade-in"
+                data-aos-easing="linear"
                 >
-                    <div class="column is-12">
+                    <div class="column is-12"
+                        // data-aos="fade-in"
+                        // data-aos-easing="linear"
+                    >
                         <h1 class="title has-text-centered section-title">Projects</h1>
                     </div>
 
-                    <div class="card-image column is-6 project-container img_wrap">
+                    <div class="card-image column is-6 project-container img_wrap"
+                        // data-aos="flip-left"
+                        // data-aos-easing="ease-out-cubic"
+                        // data-aos-duration="2000"
+                    >
                         <figure
                             class="image is-2by1"
                         // style={{ backgroundImage: "url('https://i.postimg.cc/d3zvnhCT/Netflixify.png')" }}
@@ -44,34 +51,46 @@ export default function Projects() {
                         </div> 
                     </div>  */}
 
-                    <div class="card-image column is-6 project-container img_wrap">
+                    <div class="card-image column is-6 project-container img_wrap"
+                        // data-aos="flip-right"
+                        // data-aos-easing="ease-out-cubic"
+                        // data-aos-duration="2000"
+                    >
                         <figure class="image is-2by1">
                             <img class="projectImg project-item" src="https://i.postimg.cc/htPwYLQc/Dev-Xchange.png" />
                             <span class="img_description is-overlay card-content">
                                 <h1>DevXchange</h1>
-                                <p>Dec 2022 - MERN Stack</p>
+                                <p>Dec 2021 - MERN Stack</p>
                                 <a href="https://devxchange.herokuapp.com/" target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
                             </span>
                         </figure>
                     </div>
 
-                    <div class="card-image column is-6 project-container img_wrap">
+                    <div class="card-image column is-6 project-container img_wrap"
+                        // data-aos="flip-left"
+                        // data-aos-easing="ease-out-cubic"
+                        // data-aos-duration="2000"
+                    >
                         <figure class="image is-2by1">
                             <img class="projectImg project-item" src="https://i.postimg.cc/Gtn3P72c/Heavy-Things-Tracker.png" />
                             <span class="img_description is-overlay card-content">
                                 <h1>Heavy Things Tracker</h1>
-                                <p>Nov 2022 - PEN Stack</p>
+                                <p>Nov 2021 - PEN Stack</p>
                                 <a href="https://heavy-things-tracker.herokuapp.com/" target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
                             </span>
                         </figure>
                     </div>
 
-                    <div class="card-image column is-6 project-container img_wrap">
+                    <div class="card-image column is-6 project-container img_wrap"
+                        // data-aos="flip-right"
+                        // data-aos-easing="ease-out-cubic"
+                        // data-aos-duration="2000"
+                    >
                         <figure class="image is-2by1">
                             <img class="projectImg project-item" src="https://i.postimg.cc/BQY6GSK8/Save-Manny.png" />
                             <span class="img_description is-overlay card-content">
                                 <h1>Save Manny!</h1>
-                                <p>Oct 2022 - Vanilla JS</p>
+                                <p>Oct 2021 - Vanilla JS</p>
                                 <a href="https://wonderful-einstein-784d70.netlify.app/" target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
                             </span>
                         </figure>

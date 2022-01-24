@@ -2,9 +2,8 @@ import './App.css'
 import About from "./components/about/About";
 import Footer from './components/Footer';
 import Hero from './components/hero/Hero';
-import Hobbies from './components/SideHustle';
+import SideHustle from './components/SideHustle';
 import Projects from "./components/projects/Projects";
-import Resume from "./components/Resume";
 import ScrollUpBtn from "./components/ScrollUpBtn";
 import Skills from './components/Skills';
 import AOS from 'aos';
@@ -22,10 +21,9 @@ function App() {
       <ScrollUpBtn />
       <div class="main-content">
         <About />
-        {/* <Resume /> */}
         <Projects />
         <Skills />
-        <Hobbies  />
+        <SideHustle  />
       </div>
       <Footer />
     </div>
