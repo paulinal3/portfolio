@@ -1,5 +1,5 @@
 
-export default function SkillRowTwo(props) {
+export default function Skill(props) {
     return (
         <div
             class="column is-4 has-text-centered"

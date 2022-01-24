@@ -1,19 +1,18 @@
 import SkillsHeader from "./SkillsHeader";
 import SkillsInfo from "../../data/SkillsInfo";
-import SkillRowOne from "./SkillRowOne";
-import SkillRowTwo from "./SkillRowTwo";
+import Skill from "./Skill";
 
 export default function Skills() {
 
     const rowOneSkills = SkillsInfo.row1.map(s => {
         return (
-            <SkillRowOne skill={s} />
+            <Skill skill={s} />
         )
     })
 
     const rowTwoSkills = SkillsInfo.row2.map(s => {
         return (
-            <SkillRowTwo skill={s} />
+            <Skill skill={s} />
         )
     })
 
