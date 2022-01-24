@@ -16,7 +16,6 @@ export default function SideHustle() {
                             class="vid"
                             src={Cocomelon}
                             controls="controls"
-                            autoplay="true"
                         />
                     </div>
                     <div class="column is-4">
