@@ -1,3 +1,4 @@
+import Resume from '../../Paulina-Le-Design-Resume.pdf'
 
 export default function About() {
 
@@ -44,7 +45,7 @@ export default function About() {
                             </div>
                         </div>
                         <div class="column is-10 has-text-centered is-offset-1">
-                            <a href="https://drive.google.com/file/d/1rS763k2GayCS1r5r5hE80neMMciqYVBa/view?usp=sharing" target='_blank' rel='noopener noreferrer'>
+                            <a href={Resume}target='_blank' rel='noopener noreferrer'>
                                 <button class="button" id='resumeBtn'>
                                     Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
                                 </button>
