@@ -15,11 +15,10 @@ export default function Hero() {
               <h1 class="subtitle profession" id="professionContainer">A
                 <Typewriter
                   options={{
-                    strings: ['Software Engineer', 'Full-Stack Developer', 'Bootcamp Grad', 'Hokie', 'Baker', 'Fitness Trainer'],
+                    strings: ['Software Engineer', 'Full-Stack Developer', 'Bootcamp Grad', 'Hokie', 'Self-Taught Baker', 'Fitness Trainer'],
                     autoStart: true,
                     loop: true,
                   }}
-                  class="subtitle profession"
                 />
               </h1>
             </div>

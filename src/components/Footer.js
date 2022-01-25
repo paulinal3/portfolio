@@ -5,7 +5,7 @@ export default function Footer() {
             <p>
                 2022 - Paulina Le
                 <a href="https://github.com/paulinal3/portfolio" target='_blank' rel='noopener noreferrer'>- GitHub Repository -</a>
-                React - Bulma
+                React - Bulma/CSS
             </p>
         </div>
     )
