@@ -126,8 +126,6 @@
 #profilePic {
   max-width: 100%;
   width: 25%;
-  display: flex;
-  justify-content: center;
 }
 
 .aboutContainer {
@@ -163,6 +161,10 @@ a:hover {
   font-weight: bold;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
+}
+
+.subheading {
+  font-size: 15px;
 }
 
 .bodyText {

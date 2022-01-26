@@ -7,7 +7,7 @@ export default function About() {
         <div class="section-light about-me" id="about-me">
             <div class="container">
                 <AboutHeader />
-                <div class="columns is-multiline aboutContainer">
+                <div class="aboutContainer">
                     <AboutInfo />
                     <ProfilePic />
                 </div>

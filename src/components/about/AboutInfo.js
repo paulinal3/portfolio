@@ -25,13 +25,13 @@ export default function AboutInfo() {
                     <p class="contactHeader">
                         Linkedin
                     </p>
-                    <a href="https://www.linkedin.com/in/paulinal3/" target='_blank' rel='noopener noreferrer' class="subcontactHeader">linkedin.com/in/paulinal3/</a>
+                    <a href="https://www.linkedin.com/in/paulinal3/" target='_blank' rel='noopener noreferrer' class="subheading">linkedin.com/in/paulinal3/</a>
                 </div>
                 <div class="column">
                     <p class="contactHeader">
                         GitHub
                     </p>
-                    <a href="https://github.com/paulinal3" target='_blank' rel='noopener noreferrer' class="subcontactHeader">github.com/paulinal3</a>
+                    <a href="https://github.com/paulinal3" target='_blank' rel='noopener noreferrer' class="subheading">github.com/paulinal3</a>
                 </div>
             </div>
             <div class="column is-10 has-text-centered is-offset-1">

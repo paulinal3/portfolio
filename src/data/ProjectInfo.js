@@ -32,7 +32,7 @@ const ProjectInfo = {
             'deployedUrl': 'https://heavy-things-tracker.herokuapp.com/',
             'date': 'Nov 2021',
             'repo': 'https://github.com/paulinal3/heavy-things-tracker',
-            'description' : 'Heavy Things Tracker is a PEN stack application designed to allow users to log their completed workout details. Along with its own built API, it implements two external APIs giving users the opportunity to search over 1300 exercises and upload workout photos.'
+            'description': 'Heavy Things Tracker is a PEN stack application designed to allow users to log their completed workout details. Along with its own built API, it implements two external APIs giving users the opportunity to search over 1300 exercises and upload workout photos.'
         },
         {
             'name': 'Save Manny!',
