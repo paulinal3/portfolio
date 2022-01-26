@@ -33,7 +33,7 @@
 
 .subtitle, #professionContainer {
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 40px;
   color: whitesmoke;
 }
 
@@ -76,11 +76,6 @@
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li.is-active a {
   border-bottom: 2px solid #4EA7A6;
-}
-
-#test {
-  display: flex;
-  flex-direction: row;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
@@ -354,7 +349,7 @@ a:hover {
 }
 
 .skillsInfo {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .main-content .section-light.contact {
@@ -393,7 +388,7 @@ a:hover {
 }
 
 .description {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -416,7 +411,7 @@ a:hover {
   color: black;
   padding-top: 2rem;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .footer a {

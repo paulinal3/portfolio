@@ -10,7 +10,7 @@ export default function HeroMenu() {
                                 <a href="#home">Home</a>
                             </li>
                             <li>
-                                <a href="#about-me">About Me</a>
+                                <a href="#about-me">About</a>
                             </li>
                             <li>
                                 <a href="#projects">Projects</a>

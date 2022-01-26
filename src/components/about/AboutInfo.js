@@ -25,7 +25,7 @@ export default function AboutInfo() {
                     <p class="contactHeader">
                         Linkedin
                     </p>
-                    <a href="https://www.linkedin.com/in/paulinal3/" target='_blank' rel='noopener noreferrer' class="subheading">linkedin.com/in/paulinal3/</a>
+                    <a href="https://www.linkedin.com/in/paulinal3/" target='_blank' rel='noopener noreferrer' class="subheading">linkedin.com/in/paulinal3</a>
                 </div>
                 <div class="column">
                     <p class="contactHeader">
