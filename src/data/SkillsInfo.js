@@ -30,13 +30,13 @@ const SkillsInfo = {
             'icon': 'fas fa-code fa-3x',
             'alt': 'Coding Icon',
             'heading': 'SEI Teaching Assistant',
-            'description': `Not only do I love to learn, but I love to teach and help others. I'm currently working as a Sofware Engineer Immersive Teaching Assistant.`
+            'description': `Not only do I love to learn, but I love to teach and watch others succeed. I'm currently working as a Sofware Engineer Immersive Teaching Assistant.`
         },
         {
             'icon': 'far fa-heart fa-3x',
             'alt': 'Heart Icon',
             'heading': 'Fitness Trainer - Baker',
-            'description': `When I'm not coding, I'm a fitness trainer and self-taught baker. I'm a certified personal trainer and group fitness instructor that loves helping my clients achieve their goals.`
+            'description': `When I'm not coding, I'm a fitness trainer and self-taught baker. I'm a certified personal trainer and group fitness instructor who loves helping my clients achieve their goals.`
         }
     ]
 }
