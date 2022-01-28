@@ -1,5 +1,5 @@
 import AboutHeader from './AboutHeader'
-import AboutInfo from './AboutInfo'
+import AboutInfo from '../about/aboutinfo/AboutInfo'
 import ProfilePic from './AboutPic'
 
 export default function About() {
