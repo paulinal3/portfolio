@@ -1,4 +1,9 @@
 # Portfolio
+A single-page application that documents who I am as a software engineer!
 
-## Deployed App
+## Link
 https://paulinale.herokuapp.com/
+
+## Tech Stack
+* React
+* CSS/Bulma
