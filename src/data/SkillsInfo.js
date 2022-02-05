@@ -29,8 +29,8 @@ const SkillsInfo = {
         {
             'icon': 'fas fa-code fa-3x',
             'alt': 'Coding Icon',
-            'heading': 'SEI Teaching Assistant',
-            'description': `Not only do I love to learn, but I love to teach and watch others succeed. I'm currently working as a Sofware Engineer Immersive Teaching Assistant.`
+            'heading': 'SEI Instructional Associate & Teaching Assistant',
+            'description': `Not only do I love to learn, but I love passing on my knowledge and educating others. It's a joy of mine to work as a Software Engineer Immersive Inctructional Associate by day and Teaching Assistant by night, watching my students grow and succeed.`
         },
         {
             'icon': 'far fa-heart fa-3x',
