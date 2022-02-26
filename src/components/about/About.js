@@ -7,7 +7,7 @@ export default function About() {
         <div class="section-light about-me" id="about-me">
             <div class="container">
                 <AboutHeader />
-                <div class="aboutContainer">
+                <div class="about-container">
                     <AboutInfo />
                     <ProfilePic />
                 </div>
