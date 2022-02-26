@@ -3,7 +3,7 @@ export default function ContactInfo() {
     return (
         <div class="columns about-links">
             <div class="column">
-                <p class="contactHeader">
+                <p class="contact-header">
                     Email Me
                 </p>
                 <p class="subheading">
@@ -11,13 +11,13 @@ export default function ContactInfo() {
                 </p>
             </div>
             <div class="column">
-                <p class="contactHeader">
+                <p class="contact-header">
                     Linkedin
                 </p>
                 <a href="https://www.linkedin.com/in/paulinal3/" target='_blank' rel='noopener noreferrer' class="subheading">linkedin.com/in/paulinal3</a>
             </div>
             <div class="column">
-                <p class="contactHeader">
+                <p class="contact-header">
                     GitHub
                 </p>
                 <a href="https://github.com/paulinal3" target='_blank' rel='noopener noreferrer' class="subheading">github.com/paulinal3</a>

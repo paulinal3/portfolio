@@ -161,7 +161,7 @@ a:hover {
   color: #4EA7A6;
 }
 
-.contactHeader {
+.about-links .contact-header {
   font-size: 15px;
   color: #4EA7A6;
   font-weight: bold;
@@ -173,7 +173,7 @@ a:hover {
   font-size: 15px;
 }
 
-.bodyText {
+.body-text {
   font-size: 18px;
 }
 
@@ -194,11 +194,9 @@ a:hover {
     justify-content: center;
     align-items: center;
   }
-
-
 }
 
-#resumeBtn {
+#resume-btn {
   border: 2px solid #4EA7A6;
   background: white;
   color: #4EA7A6;
@@ -208,7 +206,7 @@ a:hover {
   text-transform: uppercase;
 }
 
-#resumeBtn:hover {
+#resume-btn:hover {
   border: 2px solid #4EA7A6;
   background: #ebf5fc;
 }
