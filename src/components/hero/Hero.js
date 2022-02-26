@@ -10,9 +10,9 @@ export default function Hero() {
         <div class="hero-body">
           <div class="container has-text-centered">
             <h1 class="subtitle">Hello, I'm</h1>
-            <h2 id="title">Paulina</h2>
+            <h2>Paulina</h2>
             <div >
-              <h1 class="subtitle profession" id="professionContainer">A
+              <h1 class="subtitle profession" id="profession-container">A
                 <Typewriter
                   options={{
                     strings: ['Software Engineer', 'Full-Stack Developer', 'Bootcamp Grad', 'Hokie', 'Self-Taught Baker', 'Fitness Trainer'],
