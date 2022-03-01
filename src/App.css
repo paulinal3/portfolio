@@ -178,6 +178,10 @@ a:hover {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* .about-info-container {
+  margin-left: 50px;
+} */
+
 .subheading {
   font-size: 15px;
 }
@@ -267,6 +271,33 @@ a:hover {
     padding: 75px 20px;
   }
 }
+
+/* .card-container {
+  perspective: 600px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 5s;
+  transform-style: preserve-3d;
+}
+
+.card-face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+
+.back-face {
+  transform: rotateY(180deg);
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+} */
 
 .main-content .section-dark.projects .project-item {
   margin-bottom: 1rem;

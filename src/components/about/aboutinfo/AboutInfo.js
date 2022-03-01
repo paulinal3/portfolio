@@ -3,7 +3,7 @@ import ResumeBtn from "./ResumeBtn";
 
 export default function AboutInfo() {
     return (
-        <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
+        <div class="column is-6 has-vertically-aligned-content about-info-container" data-aos="fade-right">
             <p class="is-larger" id="name">
                 Paulina Le
             </p>

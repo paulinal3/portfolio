@@ -2,7 +2,7 @@
 export default function Project(props) {
     return (
         <div class="card-image column is-6 project-container img_wrap">
-            <figure class="image is-2by1">
+            <figure class="image is-5by3">
                 <img class="projectImg project-item" src={props.project.imgUrl} />
                 <span class="img_description is-overlay card-content">
                     <h1 class="is-uppercase">{props.project.name}</h1>
