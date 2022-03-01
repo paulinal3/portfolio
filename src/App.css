@@ -15,6 +15,7 @@
   background: linear-gradient(rgba(31, 108, 94, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("https://i.imgur.com/ZATlHgN.jpeg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
   color: white;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-family: 'Open Sans Condensed', sans-serif;
@@ -48,6 +49,14 @@
 }
 
 @media (max-width: 599px) {
+  .hero {
+    background: linear-gradient(rgba(57, 170, 149, 0.65), rgba(31, 97, 108, 0.65)), rgba(0, 0, 0, 0.55);
+  }
+
+  .hero .hero-body {
+    padding-bottom: 75px;
+  }
+  
   .hero .hero-foot {
     display: none;
   }
@@ -460,10 +469,10 @@ a:hover {
   color: #43485c;
 }
 
-#toTop {
+#to-top {
   height: 50px;
   width: 50px;
-  display: none;
+  display: block;
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -478,11 +487,11 @@ a:hover {
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }
 
-#toTop a {
+#to-top a {
   color: white;
 }
 
-#toTop:hover {
+#to-top:hover {
   background-color: #43485c;
 }
 
