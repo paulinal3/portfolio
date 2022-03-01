@@ -479,7 +479,7 @@ a:hover {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: rgba(31, 44, 108, 0.65);
+  background-color: rgba(31, 108, 102, 0.65);
   color: white;
   cursor: pointer;
   border-radius: 50%;
@@ -492,7 +492,7 @@ a:hover {
 }
 
 #to-top:hover {
-  background-color: #43485c;
+  background-color: #33ceac;
 }
 
 ::-webkit-scrollbar {
