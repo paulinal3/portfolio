@@ -431,7 +431,7 @@ a:hover {
     font-size: 12px;
   }
 
-  .project-container .fas {
+  .project-container .info-icon {
     display: none;
   }
 }
