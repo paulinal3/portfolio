@@ -348,6 +348,18 @@ a:hover {
     background-size: cover;
 }
 
+.blur-project {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    /* transition: filter 10s ease-in-out; */
+    transition: 2s filter linear;
+    -webkit-transition: 2s -webkit-filter linear;
+    -webkit-transform: scale(1.055) translateY(-2px);
+    transform: scale(1.055) translateY(-2px);
+    -webkit-box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
+    box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
+}
+
 .img_description {
   /* visibility: hidden; */
   opacity: 0;

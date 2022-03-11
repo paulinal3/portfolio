@@ -1,10 +1,19 @@
 
 export default function Project(props) {
+    const blurProject = (e) => {
+        console.log(e)
+        e.target.parentElement.firstChild.classList.add("blur-project")
+    }
+
+    const unBlurProject = (e) => {
+        e.target.parentElement.firstChild.classList.remove("blur-project")
+    }
+
     return (
         <div class="card-image column is-6 project-container img_wrap">
             <figure class="image is-5by3">
-                <img class="projectImg project-item" src={props.project.imgUrl} />
-                <span class="img_description is-overlay card-content">
+                <img class="projectImg project-item" src={props.project.imgUrl} id="project" />
+                <span class="img_description is-overlay card-content" onMouseEnter={blurProject} onMouseLeave={unBlurProject}>
                     <h1 class="is-uppercase">{props.project.name}</h1>
                     <p>{props.project.date} - {props.project.stackName}</p>
                     <div className="project-links">
