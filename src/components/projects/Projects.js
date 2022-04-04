@@ -1,12 +1,21 @@
 import ProjectsHeader from './ProjectsHeader'
 import ProjectInfo from '../../data/ProjectInfo'
 import Project from './Project'
+import { useState } from 'react'
+import ProjectModal from './ProjectModal'
 
 export default function Projects() {
-    
+    const [showProjectModal, setShowProjectModal] = useState(false)
+    const [projectInfo, setProjectInfo] = useState({})
+
+    const projectToggle = (project) => {
+        setShowProjectModal(!showProjectModal)
+        setProjectInfo(project)
+    }
+
     const allProjects = ProjectInfo.projects.map(p => {
         return (
-            <Project key={p.name} project={p} />
+            <Project key={p.name} project={p} projectToggle={projectToggle} />
         )
     })
 
@@ -21,6 +30,11 @@ export default function Projects() {
                 >
                     <ProjectsHeader />
                     {allProjects}
+                    {
+                        showProjectModal ?
+                            <ProjectModal projectToggle={projectToggle} projectInfo={projectInfo} />
+                            : null
+                    }
                 </div>
             </div>
         </div>
