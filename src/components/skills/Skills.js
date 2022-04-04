@@ -6,26 +6,26 @@ export default function Skills() {
 
     const rowOneSkills = SkillsInfo.row1.map(s => {
         return (
-            <Skill skill={s} />
+            <Skill key={s.alt} skill={s} />
         )
     })
 
     const rowTwoSkills = SkillsInfo.row2.map(s => {
         return (
-            <Skill skill={s} />
+            <Skill key={s.alt} skill={s} />
         )
     })
 
     return (
-        <div class="section-color skills" id="skills">
-            <div class="container">
-                <div class="columns is-multiline">
+        <div className="section-color skills" id="skills">
+            <div className="container">
+                <div className="columns is-multiline">
                     <SkillsHeader />
-                    <div class="columns is-12">
+                    <div className="columns is-12">
                         {rowOneSkills}
                     </div>
                     <hr />
-                    <div class="columns is-12">
+                    <div className="columns is-12">
                         {rowTwoSkills}
                     </div>
                 </div>

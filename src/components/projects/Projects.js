@@ -6,15 +6,15 @@ export default function Projects() {
     
     const allProjects = ProjectInfo.projects.map(p => {
         return (
-            <Project project={p} />
+            <Project key={p.name} project={p} />
         )
     })
 
     return (
-        <div class="section-dark projects is-flex-wrap-wrap" id="projects">
-            <div class="container">
+        <div className="section-dark projects is-flex-wrap-wrap" id="projects">
+            <div className="container">
                 <div
-                    class="columns is-multiline"
+                    className="columns is-multiline"
                     data-aos="fade-in"
                     data-aos-easing="linear"
                     data-aos-duration="2000"

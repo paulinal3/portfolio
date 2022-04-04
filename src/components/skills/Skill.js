@@ -2,15 +2,15 @@
 export default function Skill(props) {
     return (
         <div
-            class="column is-4 has-text-centered"
+            className="column is-4 has-text-centered"
             data-aos="fade-in"
             data-aos-easing="linear"
             data-aos-duration="1500"
 
         >
-            <i class={props.skill.icon} alt={props.skill.alt}></i>
+            <i className={props.skill.icon} alt={props.skill.alt}></i>
             <hr />
-            <h2 class="skillsInfo">
+            <h2 className="skillsInfo">
                 {props.skill.heading}
                 <br />
                 • • •

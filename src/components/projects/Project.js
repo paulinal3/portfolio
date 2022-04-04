@@ -10,17 +10,17 @@ export default function Project(props) {
     }
 
     return (
-        <div class="card-image column is-6 project-container img_wrap">
-            <figure class="image is-5by3">
-                <img class="projectImg project-item" src={props.project.imgUrl} id="project" />
-                <span class="img_description is-overlay card-content" onMouseEnter={blurProject} onMouseLeave={unBlurProject}>
-                    <h1 class="is-uppercase">{props.project.name}</h1>
+        <div className="card-image column is-6 project-container img_wrap">
+            <figure className="image is-5by3">
+                <img className="projectImg project-item" src={props.project.imgUrl} id="project" />
+                <span className="img_description is-overlay card-content" onMouseEnter={blurProject} onMouseLeave={unBlurProject}>
+                    <h1 className="is-uppercase">{props.project.name}</h1>
                     <p>{props.project.date} - {props.project.stackName}</p>
                     <div className="project-links">
                         <a href={props.project.repo} target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
                         <a href={props.project.deployedUrl} target='_blank' rel='noopener noreferrer'>Deployed App</a>
                     </div>
-                    <p className="info-icon"><i class="fas fa-info-circle" alt="Click for More Info"></i></p>
+                    <p className="info-icon"><i className="fas fa-info-circle" alt="Click for More Info"></i></p>
                 </span>
             </figure>
         </div>

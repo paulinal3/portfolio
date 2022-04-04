@@ -19,7 +19,7 @@ function App() {
     <div>
       <Hero />
       <ScrollUpBtn />
-      <div class="main-content">
+      <div className="main-content">
         <About />
         <Projects />
         <Skills />

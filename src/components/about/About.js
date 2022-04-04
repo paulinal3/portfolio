@@ -4,10 +4,10 @@ import ProfilePic from './AboutPic'
 
 export default function About() {
     return (
-        <div class="section-light about-me" id="about-me">
-            <div class="container">
+        <div className="section-light about-me" id="about-me">
+            <div className="container">
                 <AboutHeader />
-                <div class="about-container">
+                <div className="about-container">
                     <AboutInfo />
                     <ProfilePic />
                 </div>

@@ -8,7 +8,7 @@ const SkillsInfo = {
         },
         {
             'icon': 'fab fa-js-square fa-3x',
-            'alt': 'React Icon',
+            'alt': 'Javascript Icon',
             'heading': 'JavaScript/ES6 - EJS - JSX',
             'description': 'Able to use plain vanilla Javascript or with templating languages and other syntax extensions.'
         },

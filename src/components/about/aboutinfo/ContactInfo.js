@@ -1,26 +1,26 @@
 
 export default function ContactInfo() {
     return (
-        <div class="columns about-links">
-            <div class="column">
-                <p class="contact-header">
+        <div className="columns about-links">
+            <div className="column">
+                <p className="contact-header">
                     Email Me
                 </p>
-                <p class="subheading">
+                <p className="subheading">
                     paulinal3@outlook.com
                 </p>
             </div>
-            <div class="column">
-                <p class="contact-header">
+            <div className="column">
+                <p className="contact-header">
                     Linkedin
                 </p>
-                <a href="https://www.linkedin.com/in/paulinal3/" target='_blank' rel='noopener noreferrer' class="subheading">linkedin.com/in/paulinal3</a>
+                <a href="https://www.linkedin.com/in/paulinal3/" target='_blank' rel='noopener noreferrer' className="subheading">linkedin.com/in/paulinal3</a>
             </div>
-            <div class="column">
-                <p class="contact-header">
+            <div className="column">
+                <p className="contact-header">
                     GitHub
                 </p>
-                <a href="https://github.com/paulinal3" target='_blank' rel='noopener noreferrer' class="subheading">github.com/paulinal3</a>
+                <a href="https://github.com/paulinal3" target='_blank' rel='noopener noreferrer' className="subheading">github.com/paulinal3</a>
             </div>
         </div>
     )

@@ -1,10 +1,10 @@
 
 export default function HeroMenu() {
     return (
-        <div class="hero-foot ">
-            <div class="hero-foot--wrapper">
-                <div class="columns">
-                    <div class="column is-12 hero-menu-desktop has-text-centered">
+        <div className="hero-foot ">
+            <div className="hero-foot--wrapper">
+                <div className="columns">
+                    <div className="column is-12 hero-menu-desktop has-text-centered">
                         <ul>
                             <li>
                                 <a href="#home">Home</a>
