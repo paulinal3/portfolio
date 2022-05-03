@@ -15,7 +15,7 @@ export default function Hero() {
               <h1 className="subtitle profession" id="profession-container">A
                 <Typewriter
                   options={{
-                    strings: ['Software Engineer', 'Full-Stack Developer', 'Bootcamp Grad', 'Hokie', 'Self-Taught Baker', 'Fitness Trainer'],
+                    strings: ['Software Engineer', 'Bootcamp Grad', 'Self-Taught Baker', 'Fitness Trainer'],
                     autoStart: true,
                     loop: true,
                   }}

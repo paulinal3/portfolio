@@ -8,9 +8,15 @@ export default function Projects() {
     const [showProjectModal, setShowProjectModal] = useState(false)
     const [projectInfo, setProjectInfo] = useState({})
 
-    const projectToggle = (project) => {
+    const projects = document.querySelectorAll(".project-card")
+    console.log("projects", projects)
+
+    const projectToggle = (e, project) => {
         setShowProjectModal(!showProjectModal)
         setProjectInfo(project)
+        // console.log(e)
+
+        e.target.parentElement.firstChild.classList.remove("blur-project")
     }
 
     const allProjects = ProjectInfo.projects.map(p => {

@@ -18,6 +18,9 @@ export default function HeroMenu() {
                             <li>
                                 <a href="#skills">Skills</a>
                             </li>
+                            {/* <li>
+                                <a href="#testimonial">Testimonials</a>
+                            </li> */}
                             <li>
                                 <a href="#side-hustle">Side Hustle</a>
                             </li>

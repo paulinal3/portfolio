@@ -1,5 +1,9 @@
 
 export default function Project({ project, projectToggle }) {
+
+    const proj = document.querySelector(".project-card")
+    console.log("proj", proj)
+
     const blurProject = (e) => {
         console.log(e)
         e.target.parentElement.firstChild.classList.add("blur-project")
@@ -9,8 +13,10 @@ export default function Project({ project, projectToggle }) {
         e.target.parentElement.firstChild.classList.remove("blur-project")
     }
 
+    
+
     return (
-        <div className="card-image column is-6 project-container img_wrap">
+        <div className="card-image column is-6 project-container img_wrap project-card">
             <figure className="image is-5by3">
                 <img className="projectImg project-item" src={project.imgUrl} id="project" />
                 <span className="img_description is-overlay card-content" onMouseEnter={blurProject} onMouseLeave={unBlurProject}>
@@ -20,7 +26,7 @@ export default function Project({ project, projectToggle }) {
                         <a href={project.repo} target='_blank' rel='noopener noreferrer'>GitHub Repository</a>
                         <a href={project.deployedUrl} target='_blank' rel='noopener noreferrer'>Deployed App</a>
                     </div>
-                    <p onClick={() => projectToggle(project)} className="info-icon"><i className="fas fa-info-circle" alt="Click for More Info"></i></p>
+                    <p onClick={(e) => projectToggle(e, project)} className="info-icon"><i className="fas fa-info-circle" alt="Click for More Info"></i></p>
                 </span>
             </figure>
         </div>
